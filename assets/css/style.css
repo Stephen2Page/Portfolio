@@ -819,10 +819,10 @@ figure.effect-bubba:hover img {
 figure.effect-bubba figcaption::before,
 figure.effect-bubba figcaption::after {
 	position: absolute;
-	top: 30px;
-	right: 30px;
-	bottom: 30px;
-	left: 30px;
+	top: 20px;
+	right: 20px;
+	bottom: 20px;
+	left: 20px;
 	content: '';
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -853,7 +853,7 @@ figure.effect-bubba h2 {
 }
 
 figure.effect-bubba p {
-	padding: 20px 2.5em;
+	padding: 15px 2.0em;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
@@ -873,6 +873,21 @@ figure.effect-bubba:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
+}
+
+@media all and (max-width: 991px) and (min-width: 768px) {
+    figure.effect-bubba:hover h2 {        
+        display: none;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+
+    figure.effect-bubba:hover p {
+        padding: 7px .75em;
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
 }
 
 /*-----------------------*/
