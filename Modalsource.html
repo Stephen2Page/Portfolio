@@ -2,29 +2,6 @@
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-    body {
-        font-family: Verdana, sans-serif;
-        margin: 0;
-    }
-
-    * {
-        box-sizing: border-box;
-    }
-
-    .row > .column {
-        padding: 0 8px;
-    }
-
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-
-    .column {
-        float: left;
-        width: 25%;
-    }
 
     /* The Modal (background) */
     .modal {
@@ -46,7 +23,7 @@
         background-color: #fefefe;
         margin: auto;
         padding: 0;
-        width: 90%;
+        width: 80%;
         max-width: 1200px;
     }
 
@@ -124,41 +101,24 @@
         padding: 2px 16px;
         color: white;
     }
-
-    .demo {
-        opacity: 0.6;
-    }
-
-        .active,
-        .demo:hover {
-            opacity: 1;
-        }
-
-    img.hover-shadow {
-        transition: 0.3s;
-    }
-
-    .hover-shadow:hover {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
 </style>
 <body>
 
-    <h2 style="text-align:center">Lightbox</h2>
-
+    <!-- This is original photo -->
     <div class="row">
         <div class="column">
             <img src="img_nature.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
         </div>
     </div>
 
+    <!-- Modal Slideshow -->
     <div id="myModal" class="modal">
         <span class="close cursor" onclick="closeModal()">&times;</span>
         <div class="modal-content">
 
             <div class="mySlides">
                 <div class="numbertext">1 / 4</div>
-                <img src="img_nature_wide.jpg" style="width:100%">
+                <img src="img_nature.jpg" style="width:100%">
             </div>
 
             <div class="mySlides">
@@ -180,10 +140,10 @@
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
             <div class="caption-container">
-                <p id="caption"></p>
+                <p id="caption">Caption</p>
             </div>
         </div>
-
+    </div>
         <script>
 function openModal() {
   document.getElementById('myModal').style.display = "block";
