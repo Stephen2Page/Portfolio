@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 
 /*!
@@ -9,7 +10,7 @@
 */
 
 body {
-	font: 300 14px/1.8 'Raleway', sans-serif;
+	font: 300 14px/1.8 'Josefin Slab', sans-serif;
 	color: #666;
 	overflow-x: hidden;
 }
@@ -69,7 +70,7 @@ a,
 /* ---------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-	font: 700 40px/1.2 Raleway, sans-serif;
+	font: 700 40px/1.2 "Josefin Slab", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	margin: 5px 0 5px;
@@ -175,7 +176,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 .btn {
-	font-family: Raleway, sans-serif;
+	font-family: "Josefin Slab", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 13px;
@@ -276,7 +277,7 @@ textarea.form-control {
 }
 
 .pfblock-subtitle {
-	font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-family: "Josefin Slab", "Times New Roman", Times, sans-serif;
 	font-style: normal;
 	font-size: 18px;
 }
@@ -386,7 +387,7 @@ textarea.form-control {
 }
 
 .start {
-	font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-family: "Josefin Slab", "Times New Roman", Times, sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	text-transform: none;
@@ -525,7 +526,7 @@ textarea.form-control {
 	border-radius: 0;
 	margin: 0;
 	text-transform: uppercase;
-	font-family: Raleway, sans-serif;
+	font-family: "Josefin Slab", sans-serif;
 }
 
 .navbar-custom,
@@ -555,6 +556,7 @@ textarea.form-control {
 	font-weight: 700;
 	font-size: 22px;
     font-family: Lobster, cursive;
+    text-transform: none;
 }
 
 .navbar-custom .dropdown-menu {
@@ -1030,6 +1032,7 @@ figure.effect-bubba:hover p {
 
 .mySlides {
     display: none;
+    width: 100%; /*moved from html*/
 }
 
 .cursor {
@@ -1076,6 +1079,8 @@ figure.effect-bubba:hover p {
 }
 
 #myModal img {
+    display:block;
+    margin:auto;
     margin-bottom: -4px;
 }
 

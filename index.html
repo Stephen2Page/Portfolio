@@ -204,9 +204,9 @@
                 
                 <div class="col-xs-12 col-sm-4 col-md-4">
                     
-                    <div class="grid wow zoomIn">
+                    <div class="grid wow zoomIn" onclick="openModal();currentSlide(1)">
                         <figure class="effect-bubba">
-                            <img src="assets/images/item-1.jpg" alt="img01"/>
+                            <img src="assets/images/bank-account/program-loop.JPG"  />
                             <figcaption>
                                 <h2>Bank <span>Account</span></h2>
                                 <p>A console app to track account balance</p>
@@ -215,6 +215,44 @@
                     </div>
                     
                 </div>
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 5</div>
+                            <img src="assets/images/bank-account/program-loop.JPG" />
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 5</div>
+                            <img src="assets/images/bank-account/main-menu.JPG" />
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">3 / 5</div>
+                            <img src="assets/images/bank-account/deposit-screen.JPG" />
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">4 / 5</div>
+                            <img src="assets/images/bank-account/account-list.JPG" />
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">5 / 5</div>
+                            <img src="assets/images/bank-account/savings-file.JPG" />
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                        <div class="caption-container">
+                            <p id="caption">Caption</p>
+                        </div>
+                    </div>
+                </div>
+
 
                 <div class="col-xs-12 col-sm-4 col-md-4">
             
@@ -223,7 +261,7 @@
                             <img src="assets/images/item-2.jpg" alt="img01"/>
                             <figcaption>
                                 <h2>Travel <span>Reviews</span></h2>
-                                <p>ASP.NET MVC app to record reviews</p>
+                                <p>A Web app to record reviews</p>
                             </figcaption>			
                         </figure>
                     </div>
@@ -533,5 +571,10 @@
 	<script src="assets/js/custom.js"></script>
     <script src="assets/js/Modal.js"></script>
 
+
 </body>
 </html>
+<!-- Sources -->
+<!-- Template clean http://scripteden.com/download/clean-one-page-personal-portfolio-template/ -->
+<!-- Portfolio hover effects Bubba http://tympanus.net/Development/HoverEffectIdeas/ -->
+<!-- Portfolio modal lightbox slideshow http://www.w3schools.com/howto/howto_js_lightbox.asp -->
