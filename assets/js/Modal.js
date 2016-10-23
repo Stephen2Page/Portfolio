@@ -1,5 +1,6 @@
 ﻿function openModal() {
-    document.getElementById('myModal').style.display = "block";
+    document.getElementById('myModal').style.display = "block"; 
+    document.getElementById('navbar').style.opacity = "0.3";
  }
 
 function closeModal() {
