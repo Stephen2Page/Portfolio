@@ -1,7 +1,8 @@
 ﻿function openModal(mySlides) {
-    console.log(mySlides,slideIndex);
+    console.log("openModal", mySlides, slideIndex);
     document.getElementById(mySlides+'Modal').style.display = "block"; 
     document.getElementById('navbar').style.opacity = "0.3";
+    slideIndex = 1;
     showSlides(1, mySlides);
  }
 
@@ -13,7 +14,7 @@ var slideIndex = 1;
 showSlides(slideIndex, mySlides);
 
 function plusSlides(n, mySlides) {
-    console.log(mySlides, n);
+    console.log("plusSlides", mySlides, n);
     showSlides((slideIndex += n), mySlides);
 }
 
@@ -22,14 +23,15 @@ function currentSlide(n) {
 }
 
 function showSlides(n, mySlides) {
-    console.log("Begin of showSlides", mySlides, n);
+    console.log("Begin of showSlides", mySlides, n, i);
     var i;
     var slides = document.getElementsByClassName(mySlides);
-    console.log(mySlides, slideIndex);
     //var dots = document.getElementsByClassName("demo");
     var captionText = document.getElementById("caption");
     if (n > slides.length) { slideIndex = 1 }
     if (n < 1) { slideIndex = slides.length }
+    console.log("befor for loop", mySlides, slideIndex);
+
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
