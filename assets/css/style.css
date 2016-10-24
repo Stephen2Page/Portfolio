@@ -281,6 +281,9 @@ textarea.form-control {
 	font-style: normal;
 	font-size: 18px;
 }
+.pfblock-subtitle #about {
+    font-size: 16px;
+}
 
 .pfblock-line {
 	background: rgba(135, 135, 135, 0.5);
@@ -415,6 +418,9 @@ textarea.form-control {
 .iconbox-title {
 	margin: 0 0 15px;
 	padding: 0;
+}
+.iconbox-desc {
+    text-align: left;
 }
 
 /* ---------------------------------------------- /*
@@ -898,7 +904,7 @@ figure.effect-bubba:hover p {
 
 .cbp-qtrotator {
 	position: relative;
-	margin: 3em auto 0em auto;
+	margin: .1em auto 0em auto;
 	max-width: 90%;
 	width: 90%;
 }
@@ -911,7 +917,7 @@ figure.effect-bubba:hover p {
 	padding: 2em 0;
 	top: 0;
 	z-index: 0;
-	opacity: 0;
+	/*opacity: 0;*/
 	width: 100%;
 }
 
@@ -919,42 +925,44 @@ figure.effect-bubba:hover p {
 	border-bottom: none;
 }
 
-.cbp-qtrotator .cbp-qtcontent.cbp-qtcurrent,
+/*.cbp-qtrotator .cbp-qtcontent.cbp-qtcurrent,
 .no-js .cbp-qtrotator .cbp-qtcontent {
 	position: relative; 
 	z-index: 100;
 	pointer-events: auto;
-	opacity: 1;
-}
+	/*opacity: 1;
+}*/
 
-.cbp-qtrotator .cbp-qtcontent:before,
+/*.cbp-qtrotator .cbp-qtcontent:before,
 .cbp-qtrotator .cbp-qtcontent:after {
 	content: " ";
 	display: table;
-}
+}*/
 
-.cbp-qtrotator .cbp-qtcontent:after {
+/*.cbp-qtrotator .cbp-qtcontent:after {
 	clear: both;
-}
+}*/
 
-.cbp-qtprogress {
+/*.cbp-qtprogress {
 	position: absolute;
 	background: #FF5252;
 	height: 1px;
 	width: 0%;
 	top: 0;
 	z-index: 1000;
-}
+}*/
 
 .cbp-qtrotator blockquote {
+    float: right;
 	margin: 0;
+    margin-left:3em;
 	padding: 0;
     border: 0;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .cbp-qtrotator blockquote p {
-	font-size: 2em;
+	font-size: 1em;
 	color: #888;
 	font-weight: 300;
 	margin: 0.4em 0 1em;
@@ -969,8 +977,8 @@ figure.effect-bubba:hover p {
 }
 
 .cbp-qtrotator .cbp-qtcontent img {
-	float: right;
-	margin-left: 3em;
+	/*float: right;
+	margin-left: 3em;*/
 }
 
 /* Example for media query */
@@ -1030,7 +1038,8 @@ figure.effect-bubba:hover p {
     cursor: pointer;
 }
 
-.mySlides {
+.mySlides,
+.bankSlides {
     display: none;
     width: 100%; /*moved from html*/
 }

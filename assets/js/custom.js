@@ -70,7 +70,7 @@
 		 * Quote Rotator
 		/* ---------------------------------------------- */
        
-			$( function() {
+			//$( function() {
 				/*
 				- how to call the plugin:
 				$( selector ).cbpQTRotator( [options] );
@@ -87,9 +87,9 @@
 				$( selector ).cbpQTRotator( 'destroy' );
 				*/
 
-				$( '#cbp-qtrotator' ).cbpQTRotator();
+			//	$( '#cbp-qtrotator' ).cbpQTRotator();
 
-			} );
+			//} );
 		
         
 		/* ---------------------------------------------- /*
