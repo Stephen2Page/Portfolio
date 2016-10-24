@@ -1100,3 +1100,23 @@ figure.effect-bubba:hover p {
     padding: 2px 16px;
     color: white;
 }
+.portfolio-detail {
+    padding: 60px;
+    background-color: black;
+    color: white;
+}
+.portfolio-detail h2 {
+    text-align:center;
+        color: white;
+
+}
+.portfolio-detail h3 {
+    text-transform:none;
+    font-size: 1.25em;
+        color: white;
+        margin-bottom: 15px;
+
+}
+.portfolio-detail ul{
+    font-size: 1.25em;
+}
