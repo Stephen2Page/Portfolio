@@ -9,7 +9,6 @@
 function closeModal(myModal) {
     document.getElementById(myModal).style.display = "none";
 }
-console.log('out of function');
 var slideIndex = 1;
 showSlides(slideIndex, mySlides);
 
