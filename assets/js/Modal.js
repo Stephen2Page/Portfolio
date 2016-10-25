@@ -2,7 +2,7 @@
     console.log("openModal", mySlides, slideIndex);
     document.getElementById(mySlides+'Modal').style.display = "block"; 
     document.getElementById('navbar').style.opacity = "0.3";
-    slideIndex = 1;
+    slideIndex = 1; //sets slides to start with first one.
     showSlides(1, mySlides);
  }
 
@@ -30,7 +30,7 @@ function showSlides(n, mySlides) {
     var captionText = document.getElementById("caption");
     if (n > slides.length) { slideIndex = 1 }
     if (n < 1) { slideIndex = slides.length }
-    console.log("befor for loop", mySlides, slideIndex);
+    console.log("before for loop", mySlides, slideIndex);
 
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
