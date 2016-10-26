@@ -51,19 +51,19 @@
         /* ---------------------------------------------- */    
         //var color = $('#home').css('backgroundColor');
 
-        $('.skills').waypoint(function(){
-            $('.chart').each(function(){
-            $(this).easyPieChart({
-                    size:140,
-                    animate: 2000,
-                    lineCap:'butt',
-                    scaleColor: false,
-                    barColor: '#FF5252',
-                    trackColor: 'transparent',
-                    lineWidth: 10
-                });
-            });
-        },{offset:'80%'});
+        //$('.skills').waypoint(function(){
+        //    $('.chart').each(function(){
+        //    $(this).easyPieChart({
+        //            size:140,
+        //            animate: 2000,
+        //            lineCap:'butt',
+        //            scaleColor: false,
+        //            barColor: '#FF5252',
+        //            trackColor: 'transparent',
+        //            lineWidth: 10
+        //        });
+        //    });
+        //},{offset:'80%'});
         
         
         /* ---------------------------------------------- /*
@@ -155,7 +155,7 @@
 			else {
 					 $.ajax({
 							type        : 'POST', // define the type of HTTP verb we want to use (POST for our form)
-							url         : 'assets/php/contact.php', // the url where we want to POST
+							url         : 'https://formspree.io/stephen2page@gmail.com', // the url where we want to POST
 							data        : formData, // our data object
 							dataType    : 'json', // what type of data do we expect back from the server
 							encode      : true,
