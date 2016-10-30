@@ -167,7 +167,7 @@
 							}
 					 });
 					 document.getElementById("sendMessage").innerHTML = "Thank You";
-					 document.getElementById("sendMessage").style.color = "red";
+					 //document.getElementById("sendMessage").style
 
 				}           
             	return false;
