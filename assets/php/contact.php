@@ -1,4 +1,4 @@
-<!--<?php
+<?php
 
 if(isset($_POST['message'])){
 
@@ -30,4 +30,4 @@ if(isset($_POST['message'])){
 	echo json_encode($res);
 }
 
-?>-->
+?>

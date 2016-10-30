@@ -139,12 +139,14 @@
 			var c_name = $('#c_name').val();
 			var c_email = $('#c_email').val();
 			var c_message = $('#c_message ').val();
+			var c_subject = $('#c_subject').val();
 			var response = $('#contact-form .ajax-response');
 			
 			var formData = {
-				'name'       : c_name,
-				'email'      : c_email,
-				'message'    : c_message
+			    'name'       : c_name,
+			    'email'      : c_email,
+			    'message'    : c_message,
+                '_subject'   : c_subject
 			};
 
 			if (( c_name== '' || c_email == '' || c_message == '') || (!isValidEmailAddress(c_email) )) {
@@ -163,11 +165,17 @@
 											var ret = $.parseJSON(JSON.stringify(res));
 											response.html(ret.message).fadeIn(500);
 							}
-						});
+					 });
+					 document.getElementById("sendMessage").innerHTML = "Thank You";
+					 document.getElementById("sendMessage").style.color = "red";
+
 				}           
             	return false;
-			});
+		});
 
+		//function sendMessage() {
+		//    document.getElementById("sendMessage").innerHTML = "Thank You";
+		//}
 	});
 
 })(jQuery);
