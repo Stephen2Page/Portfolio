@@ -1020,7 +1020,8 @@ figure.effect-bubba:hover p {
 /* Modal Content */
 .modal-content {
     position: relative;
-    background-color: #fefefe;
+    background-color: black;
+    /*background-color: #fefefe;*/
     margin: auto;
     padding: 0;
     width: 80%;
@@ -1093,7 +1094,9 @@ figure.effect-bubba:hover p {
     top: 0;
     left: -50px;
 }
-
+#wardrobeSlidesModal img,
+#travelSlidesModal img,
+#bankSlidesModal img,
 #myModal img {
     display:block;
     margin:auto;
@@ -1103,6 +1106,7 @@ figure.effect-bubba:hover p {
 .caption-container {
     text-align: center;
     background-color: black;
+    margin-top: 10px;
     padding: 2px 16px;
     color: white;
 }
