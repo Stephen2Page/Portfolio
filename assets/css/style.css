@@ -504,17 +504,17 @@ textarea.form-control {
 }
 
 .social-links a {
-	width: 36px;
-	height: 36px;
+	width: 42px;
+	height: 42px;
 	display: block;
-	line-height: 35px;
+	line-height: 41px;
 	text-align: center;
 	border: 1px solid rgba(255, 255, 255, .1);
 	-webkit-border-radius: 3px;
 	   -moz-border-radius: 3px;
 			border-radius: 3px;
 	font-size: 14px;
-	color: rgba(255, 255, 255, .2);
+	color: rgba(255, 255, 255, .4);
 }
 
 .social-links a:hover {
@@ -1118,15 +1118,17 @@ figure.effect-bubba:hover p {
 .portfolio-detail h2 {
     text-align:center;
         color: white;
-
 }
 .portfolio-detail h3 {
     text-transform:none;
     font-size: 1.25em;
         color: white;
         margin-bottom: 15px;
-
 }
 .portfolio-detail ul{
     font-size: 1.25em;
+}
+.github-repository h4 {
+    text-align: center;
+    margin-top: 20px;
 }
