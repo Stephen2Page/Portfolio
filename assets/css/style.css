@@ -1036,6 +1036,7 @@ figure.effect-bubba:hover p {
     right: 35px;
     font-size: 48px;
     font-weight: bold;
+	opacity: .6;
 }
 
 .close:hover,
@@ -1124,6 +1125,11 @@ figure.effect-bubba:hover p {
     font-size: 1.25em;
         color: white;
         margin-bottom: 15px;
+}
+.portfolio-description {
+	display: block;
+	max-width: 800px;
+	margin: auto;
 }
 .portfolio-detail ul{
     font-size: 1.25em;
