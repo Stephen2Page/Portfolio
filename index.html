@@ -416,7 +416,129 @@
                     </div>
                 </div>                              
             </div>
-		</div><!-- .contaier -->
+<!-- Second Row -->
+            <div class="row">
+			
+			    <div class="col-xs-12 col-sm-4 col-md-4 col-sm-offset-2">  <!--Citizen Connect Portfolio-->
+
+                    <div class="grid wow zoomIn" onclick="openModal('citizenSlides')">
+                        <figure class="effect-bubba">
+                            <img src="assets/images/citizen-connect/HomePage.jpg" alt="link to slideshow of screenshots"/>
+                            <figcaption>
+                                <h2>Citizen <span>Connect</span></h2>
+                                <p>A Web app to connect with Councilperson</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+                <div id="citizenSlidesModal" class="modal">
+                    <span class="close cursor" onclick="closeModal('citizenSlidesModal')">&times;</span>
+                    <div class="modal-content">
+
+                        <div class="citizenSlides portfolio-detail">
+                            <div class="numbertext"></div>
+                            <h2>Citizen Connect</h2>
+							<div class="portfolio-description">
+								<h3>Team developed ASP.net MVC application to connect with Councilperson and community.</h3>
+								<ul>
+									<li>Used Google Maps API to provide address lookup.</li>
+									<li>Used Google Civic Information API to identifiy Ward and Councilperson with contact information.</li>
+									<li>Used jQuery to display information to webpage.</li>
+									<li>Formatted About page to provide Bios for team members.</li>
+									<li>Deployed application to web at <a href="https://citizenconnect.apphb.com/" target="_blank">citizenconnect.apphb.com</a>.</li>
+									<li>Worked on team of five using Agile/Scrum method.</li>
+								</ul>
+							</div>
+                            <div class="github-repository">
+                                <h4><a href="https://github.com/CitizenConnect/CitizenConnect" target="_blank">GitHub Repository</a></h4>
+                            </div>
+                        </div>						
+
+                        <div class="citizenSlides">
+                            <div class="numbertext">1 / 3</div>
+                            <img src="assets/images/citizen-connect/HomePage.jpg" />
+                            <p class="caption-container">Home Page</p>
+                        </div>
+
+                        <div class="citizenSlides">
+                            <div class="numbertext">2 / 3</div>
+                            <img src="assets/images/citizen-connect/FindWard.jpg" />
+                            <p class="caption-container">Find My Ward</p>
+                        </div>
+
+                        <div class="citizenSlides">
+                            <div class="numbertext">3 / 3</div>
+                            <img src="assets/images/citizen-connect/AboutPage.jpg" />
+                            <p class="caption-container">About Page</p>
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1, 'citizenSlides')">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 'citizenSlides')">&#10095;</a>
+                     </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4">  <!--My Portfolio-->
+
+                    <div class="grid wow zoomIn" onclick="openModal('portfolioSlides')">
+                        <figure class="effect-bubba">
+                            <img src="assets/images/wardrobe/cover.jpg" alt="link to slideshow of screenshots"/>
+                            <figcaption>
+                                <h2>Portfolio <span>Website</span></h2>
+                                <p>An ASP.NET MVC app to organize outfits.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+                <div id="portfolioSlidesModal" class="modal">
+                    <span class="close cursor" onclick="closeModal('portfolioSlidesModal')">&times;</span>
+                    <div class="modal-content">
+
+                        <div class="portfolioSlides portfolio-detail">
+                            <div class="numbertext"></div>
+							<div class="portfolio-description">
+                            <h2>Portfolio Website</h2>
+								<h3>Developed an ASP.NET MVC application to keep track of clothing.</h3>
+								<ul>
+									<li>Used Database First Model</li>
+									<li>Created database with multiple tables and foreign keys using SQL Server Management Studio.</li>
+									<li>Designed database to record details specific to each type of clothing</li>
+									<li>Made use of CSS and Bootstrap to format views.</li>
+									<li>Used multiple layout templates to style multiple pages.</li>
+									<li>Pulled data from multiple tables to display outfits.</li>
+								</ul>
+							</div>
+                            <div class="github-repository">
+                                <h4><a href="https://github.com/Stephen2Page/Portfolio" target="_blank">GitHub Repository</a></h4>
+                            </div>
+                        </div>
+
+                        <div class="portfolioSlides">
+                            <div class="numbertext">1 / 5</div>
+                            <img src="assets/images/cover.jpg" />
+                            <p class="caption-container">Main Menu</p>
+                        </div>
+
+                        <div class="portfolioSlides">
+                            <div class="numbertext">2 / 5</div>
+                            <img src="assets/images/wardrobe/category-view.JPG" />
+                            <p class="caption-container">Clothes Category View</p>
+                        </div>
+
+                        <div class="portfolioSlides">
+                            <div class="numbertext">3 / 5</div>
+                            <img src="assets/images/wardrobe/detail-view.JPG" />
+                            <p class="caption-container">Detail View</p>
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1, 'portfolioSlides')">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 'portfolioSlides')">&#10095;</a>
+                    </div>
+                </div>                              
+            </div>
+
+		</div><!-- .container -->
 
 	</section>
 
