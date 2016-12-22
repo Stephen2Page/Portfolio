@@ -145,7 +145,7 @@ h6 {
 .form-control {
 	background: #FFF;
 	border: 1px solid #D8E1E4;
-	font-size: 12px;
+	font-size: 14px;
 	padding: 0 15px;
 }
 
@@ -398,7 +398,7 @@ textarea.form-control {
 }
 
 /* ---------------------------------------------- /*
- * Servise
+ * Service
 /* ---------------------------------------------- */
 
 .iconbox {
@@ -812,6 +812,11 @@ textarea.form-control {
 	font-size: 68.5%;
 }
 
+#portfolioThumb {
+	margin-top: -5%;
+	margin-bottom: -4%;
+}
+
 /*---------------*/
 /***** Bubba *****/
 /*---------------*/
@@ -1098,10 +1103,16 @@ figure.effect-bubba:hover p {
 #wardrobeSlidesModal img,
 #travelSlidesModal img,
 #bankSlidesModal img,
+#citizenSlidesModal img,
+#portfolioSlidesModal img,
 #myModal img {
     display:block;
     margin:auto;
     margin-bottom: -4px;
+}
+
+#portfolioSlidesModal img {
+	max-width: 800px;
 }
 
 .caption-container {
