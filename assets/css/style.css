@@ -812,10 +812,6 @@ textarea.form-control {
 	font-size: 68.5%;
 }
 
-#portfolioThumb {
-	margin-top: -5%;
-	margin-bottom: -4%;
-}
 
 /*---------------*/
 /***** Bubba *****/
@@ -1038,10 +1034,10 @@ figure.effect-bubba:hover p {
     color: white;
     position: absolute;
     top: 70px;
-    right: 35px;
+    right: 30px;
     font-size: 48px;
     font-weight: bold;
-	opacity: .6;
+	opacity: .8;
 }
 
 .close:hover,
